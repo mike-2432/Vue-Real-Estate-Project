@@ -1,6 +1,6 @@
 <template>
     <!-- PAGE CONTAINER -->
-    <!-- Only view if the single house is loaded -->
+    <!-- Only view if the house is loaded -->
     <div v-if="isLoaded === 'loaded'" class="page-container">
 
         <!-- BACK BUTTON -->
