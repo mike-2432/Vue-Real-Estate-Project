@@ -65,7 +65,7 @@ export default {
     },
     beforeMount() {
         this.setSearchFilter("");  
-        this.setSortOption(this.activeSort);
+        this.setSortOption('price');
         this.setReverseOption('false');      
     }
 }
